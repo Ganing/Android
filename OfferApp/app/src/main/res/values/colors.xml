@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="mnls">#A5873D</color>
+    <color name="white">#ffffffff</color>
+    <color name="w">#F9F9F9</color>
+    <color name="red">#FF0000</color>
+    <color name="orange">#FF8040</color>
+    <color name="gray">#757575</color>
+    <color name="ashen">#ffcc6633</color>
+    <color name="tabbg">#f6f4f2</color>
+    <color name="date_back">#282828</color>
+    <color name="white_touming">#00ffffff</color>
+    <color name="floatbutton">#bbD0A650</color>
+
+
+
+</resources>

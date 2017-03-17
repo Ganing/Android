@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.bb.offerapp.activity.Marquee">
+
+
+    <!--只设置一个text可以用456 行代码跑马灯-->
+    <com.bb.offerapp.view.MarqueeView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text="@string/hello"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp" />
+
+    <!--设置多个text实现跑马灯要重写方法-->
+    <com.bb.offerapp.view.MarqueeView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text="@string/hello2"
+        android:textColor="#F0D57E"
+        android:textSize="30sp" />
+
+    <com.bb.offerapp.view.MarqueeView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text="@string/hello3"
+        android:textColor="#F73F1D"
+        android:textSize="30sp" />
+
+    　
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="请控制速度"
+        android:textSize="18sp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:max="10"
+        android:progress="2"/>
+
+    <RelativeLayout
+        android:layout_width="380dp"
+        android:layout_height="30dp"
+        android:background="#2D2AFA">
+
+        <com.bb.offerapp.view.MarqueeVerticalView
+            android:id="@+id/marqueeView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"/>
+    </RelativeLayout>
+
+</LinearLayout>
