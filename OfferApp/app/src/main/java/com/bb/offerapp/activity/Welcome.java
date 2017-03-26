@@ -13,33 +13,45 @@ import android.view.animation.Animation;
 import com.bb.offerapp.R;
 
 
-
 /**
  * Created by bb on 2017/3/15.
  */
 
-public class Welcome extends AppCompatActivity{
+public class Welcome extends AppCompatActivity {
+    private Handler handler;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         final View view = View.inflate(this, R.layout.welcome, null);
         setContentView(view);
-
+        handler = new Handler();
         //渐变展示启动屏
-        AlphaAnimation aa = new AlphaAnimation(0.3f,1.0f);
+        AlphaAnimation aa = new AlphaAnimation(0.3f, 1.0f);
         aa.setDuration(2000);
         view.startAnimation(aa);
-        aa.setAnimationListener(new Animation.AnimationListener()
-        {
+        aa.setAnimationListener(new Animation.AnimationListener() {
             @Override
             public void onAnimationEnd(Animation arg0) {
                 redirectTo();
+//                try {
+//                    Intent intent = new Intent(Welcome.this, OfferAppMainActivity.class);
+//                    startActivity(intent);
+//                    Thread.sleep(3000); //线程不安全 可能会anr
+//                    finish();
+//
+//                } catch (InterruptedException e) {
+//                    e.printStackTrace();
+//                }
             }
+
             @Override
-            public void onAnimationRepeat(Animation animation) {}
+            public void onAnimationRepeat(Animation animation) {
+            }
+
             @Override
-            public void onAnimationStart(Animation animation) {}
+            public void onAnimationStart(Animation animation) {
+            }
 
         });
 
@@ -49,15 +61,22 @@ public class Welcome extends AppCompatActivity{
     /**
      * 跳转到...
      */
-    private void redirectTo(){
-        new Handler().postDelayed(new Runnable() {
+    private void redirectTo() {
+
+        new Thread(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(Welcome.this, OfferAppMainActivity.class);
-                startActivity(intent);
-                finish();
+                handler.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        Intent intent = new Intent(Welcome.this, OfferAppMainActivity.class);
+                        startActivity(intent);
+                        finish();
+                    }
+                }, 1000);
             }
-        }, 1000);
+        }).start();
+
 
     }
 }
