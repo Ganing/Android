@@ -1,7 +1,7 @@
 # Android个人学习、开发代码。
 # OfferApp为个人应聘使用。
 # 就读大三，致力进军IT行业，并一直为此付诸行动。
-# 近期将会把学习工程等工具代码全部上传。
+# 近期将会把学习过程更新到自己的博客当中。
 博客：http://www.jianshu.com/users/19513cee1eb8
 # 演示视频地址 
 http://www.bilibili.com/video/av9222319/
