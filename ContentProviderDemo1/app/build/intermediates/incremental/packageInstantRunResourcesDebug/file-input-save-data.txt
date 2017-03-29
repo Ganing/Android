@@ -1,0 +1,18 @@
+#Internal package file, do not edit.
+#Mon Feb 27 19:47:10 CST 2017
+1.base=/Users/bb/AndroidStudioProjects/ContentProviderDemo1/app/build/intermediates/res/resources-debug.ap_
+4.file=/Users/bb/AndroidStudioProjects/ContentProviderDemo1/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+1.file=/Users/bb/AndroidStudioProjects/ContentProviderDemo1/app/build/intermediates/res/resources-debug.ap_/res/layout/activity_main.xml
+4.set=ANDROID_RESOURCE
+2.base=/Users/bb/AndroidStudioProjects/ContentProviderDemo1/app/build/intermediates/res/resources-debug.ap_
+3.set=ANDROID_RESOURCE
+2.set=ANDROID_RESOURCE
+2.file=/Users/bb/AndroidStudioProjects/ContentProviderDemo1/app/build/intermediates/res/resources-debug.ap_/resources.arsc
+count=5
+1.set=ANDROID_RESOURCE
+3.base=/Users/bb/AndroidStudioProjects/ContentProviderDemo1/app/build/intermediates/res/resources-debug.ap_
+0.set=ANDROID_RESOURCE
+0.base=/Users/bb/AndroidStudioProjects/ContentProviderDemo1/app/build/intermediates/res/resources-debug.ap_
+3.file=/Users/bb/AndroidStudioProjects/ContentProviderDemo1/app/build/intermediates/res/resources-debug.ap_/res/menu/main.xml
+0.file=/Users/bb/AndroidStudioProjects/ContentProviderDemo1/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/ic_launcher.png
+4.base=/Users/bb/AndroidStudioProjects/ContentProviderDemo1/app/build/intermediates/res/resources-debug.ap_
