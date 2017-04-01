@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86_64,x86"
+    api-level="22"
+    density="xhdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="13883654036754"
+    token="265687518267348661" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <build
+        timestamp="13872788756305"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/bb/AndroidStudioProjects/SQLiteDemo3/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="13883654036754" />
+
+</instant-run>
