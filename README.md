@@ -7,12 +7,12 @@
 http://www.bilibili.com/video/av9222319/
 # 面试APP演示截图
 
-![image](https://github.com/JayKuzzi/Android/blob/master/OfferApp/app/appshot/主页.png)
-![image](https://github.com/JayKuzzi/Android/blob/master/OfferApp/app/appshot/侧滑.png)
-![image](https://github.com/JayKuzzi/Android/blob/master/OfferApp/app/appshot/功能.png)
-![image](https://github.com/JayKuzzi/Android/blob/master/OfferApp/app/appshot/项目.png)
-![image](https://github.com/JayKuzzi/Android/blob/master/OfferApp/app/appshot/音乐.png)
-![image](https://github.com/JayKuzzi/Android/blob/master/OfferApp/app/appshot/关于.png)
+![image](https://github.com/JayKuzzi/Android/blob/master/OfferAPP/app/appshot/主页.png)
+![image](https://github.com/JayKuzzi/Android/blob/master/OfferAPP/app/appshot/侧滑.png)
+![image](https://github.com/JayKuzzi/Android/blob/master/OfferAPP/app/appshot/功能.png)
+![image](https://github.com/JayKuzzi/Android/blob/master/OfferAPP/app/appshot/项目.png)
+![image](https://github.com/JayKuzzi/Android/blob/master/OfferAPP/app/appshot/音乐.png)
+![image](https://github.com/JayKuzzi/Android/blob/master/OfferAPP/app/appshot/关于.png)
 
 
 dependencies {
