@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">OfferApp</string>
+    <string name="hello">这是第一排跑马灯效果。这是第一排跑马灯效果。这是第一排跑马灯效果。这是第一排跑马灯效果。这是第一排跑马灯效果。这是第一排跑马灯效果。这是第一排跑马灯效果。这是第一排跑马灯效果。这是第一排跑马灯效果。这是第一排跑马灯效果。</string>
+    <string name="hello2">这是第二排跑马灯效果。这是第二排跑马灯效果。这是第二排跑马灯效果。这是第二排跑马灯效果。这是第二排跑马灯效果。这是第二排跑马灯效果。这是第二排跑马灯效果。这是第二排跑马灯效果。这是第二排跑马灯效果。这是第二排跑马灯效果。</string>
+    <string name="hello3">这是第三排跑马灯效果。这是第三排跑马灯效果。这是第三排跑马灯效果。这是第三排跑马灯效果。这是第三排跑马灯效果。这是第三排跑马灯效果。这是第三排跑马灯效果。这是第三排跑马灯效果。这是第三排跑马灯效果。这是第三排跑马灯效果。</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+
+</resources>

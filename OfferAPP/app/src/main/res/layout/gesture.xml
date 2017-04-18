@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--常见的GestureOverlayView XML属性隨：
+Android:eventsInterceptionEnabled
+定义当手势随被识别出細，是否拦截该手势动作
+ AndroidrfadeDuration
+当用户画完手勢效果淡出的时间
+AndroidrfadeEnabled
+用户画完之后手势是否自动淡出
+AndroidrgestureColor
+颜色
+Android:gestureStrokeType
+笔画的类型
+Android:gestureStrokeWidth
+笔画的粗细-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.bb.offerapp.activity.Gesture_1"
+    android:background="@mipmap/huaban">
+
+    <android.gesture.GestureOverlayView
+        android:id="@+id/ges"
+        android:layout_marginTop="190dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.gesture.GestureOverlayView>
+
+
+</RelativeLayout>
